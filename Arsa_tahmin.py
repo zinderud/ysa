@@ -1,5 +1,5 @@
-# Arsa tahmini basit bir ysa
-#import tensorflow as tf
+#  Arsa tahmini basit bir ysa
+#  import tensorflow as tf
 import numpy as np
 import math
 import matplotlib.pyplot as plt
