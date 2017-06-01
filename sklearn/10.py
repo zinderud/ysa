@@ -35,3 +35,4 @@ y_fit = model.predict(X_fit)
 
 plt.plot(X.squeeze(), y, 'o')
 plt.plot(X_fit.squeeze(), y_fit);
+plt.show()
