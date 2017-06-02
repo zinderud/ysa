@@ -5,7 +5,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 import pandas as pd
 
-veri = pd.read_csv("data.csv")
+veri = pd.read_csv("data.data")
 
 veri=veri.replace('?', -222, inplace='true')
 veri=veri.drop(['id'], axis=1)
