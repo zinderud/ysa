@@ -29,7 +29,7 @@ def normalize(array):
     return(array-array.mean())/array.std()
 
 # eğitim dataları %70 alalım
-num_egitim_ornek=math.floor(num_arsa*0.7z)
+num_egitim_ornek=math.floor(num_arsa*0.7)
 
 # egitim dataları tanımlayalım
 egitim_arsa_size=np.asarray(arsa_size[:num_egitim_ornek])
