@@ -1,29 +1,29 @@
 from random import randrange
 
 
-class Weapon(object):
-    name = None
-    cost = None
+class Silah(object):
+    adi = None
+    maliyet = None
 
     @staticmethod
-    def get_weapon(x):
+    def get_Silah(x):
         if x == 0:
-            return Knife()
+            return Bicak()
         if x == 1:
-            return Gun()
+            return Tabanca()
 
 
-class Knife(Weapon):
-    name = 'Knife'
-    cost = 20.00
+class Bicak(Silah):
+    adi = 'Bicak'
+    maliyet = 20.00
 
 
-class Gun(Weapon):
-    name = 'Gun'
-    cost = 300.00
+class Tabanca(Silah):
+    adi = 'Tabanca'
+    maliyet = 300.00
 
 
-# Create 25 random weapons
+#   25 random Silah üret
 for _ in range(25):
-    w = Weapon.get_weapon(randrange(2))
-    print(w.name, w.cost)
+    w = Silah.get_Silah(randrange(2))
+    print(w.adi, w.maliyet)
