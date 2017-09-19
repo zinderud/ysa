@@ -14,3 +14,5 @@ alan = Dortgen.Alan_Hesapla(5, 7)
 print(alan)
 cevre=Dortgen.Cevre_hesapla(5,7)
 print(cevre)
+
+ 

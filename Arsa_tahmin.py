@@ -22,7 +22,7 @@ arsa_price=arsa_size*100.0+np.random.randint(low=10000,high=100000,size=num_arsa
 plt.plot(arsa_size,arsa_price,"bx")
 plt.ylabel("price")
 plt.xlabel("size")
-plt.show();
+plt.show()
 
 #verileri normalize edecek fonk
 def normalize(array):

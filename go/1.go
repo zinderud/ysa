@@ -40,3 +40,4 @@ func (s Sekil) Hacim() int {
 	return 2 * s.Alan
 
 }
+ 
