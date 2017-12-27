@@ -39,3 +39,4 @@ func toplama(sayilar ...int) int {
 	}
 	return toplam
 }
+
